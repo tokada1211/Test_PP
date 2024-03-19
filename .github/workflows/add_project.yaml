@@ -10,5 +10,5 @@ jobs:
       - uses: alex-page/github-project-automation-plus@v0.3.0
         with:
           project: テストプロジェクト
-          column: Todo
+          column: Done
           repo-token: ${{ secrets.GH_TOKEN }}

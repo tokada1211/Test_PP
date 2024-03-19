@@ -9,6 +9,6 @@ jobs:
     steps:
       - uses: alex-page/github-project-automation-plus@v0.3.0
         with:
-          project: プロジェクトの名前
+          project: "テストプロジェクト"
           column: カラム名
           repo-token: ${{ secrets.GH_TOKEN }}

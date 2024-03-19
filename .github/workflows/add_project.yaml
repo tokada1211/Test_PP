@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: alex-page/github-project-automation-plus@v0.8.3
         with:
-          project: 'testproject'
+          project: 'https://github.com/users/tokada1211/projects/2'
           column: 'PP'
           repo-token: ${{ secrets.GH_TOKEN }}
 
